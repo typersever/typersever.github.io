@@ -1,2 +1,2 @@
 # typersever.github.io
-Typersever ' s blog
+Typersever ' s blog Welcome！

@@ -1,25 +1,30 @@
 
-  <!DOCTYPE HTML>
+  
+    <!DOCTYPE HTML>
 <html >
 <head>
   <meta charset="UTF-8">
   
-    <title>歸檔: 2015/6 | Typersever</title>
+    <title>About me | Typersever</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Towey Tao">
     
 
     
-    <meta name="description">
+    <meta name="description" content="关于我This is my blog, welcome! 
+I’m Towey Tao from Guangzhou University.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Typersever">
-<meta property="og:url" content="http://yoursite.com/archives/2015/06/index.html">
+<meta property="og:title" content="About me">
+<meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="Typersever">
-<meta property="og:description">
+<meta property="og:description" content="关于我This is my blog, welcome! 
+I’m Towey Tao from Guangzhou University.">
+<meta property="og:updated_time" content="2015-06-10T02:50:17.688Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Typersever">
-<meta name="twitter:description">
+<meta name="twitter:title" content="About me">
+<meta name="twitter:description" content="关于我This is my blog, welcome! 
+I’m Towey Tao from Guangzhou University.">
 
     
     <link rel="alternative" href="/atom.xml" title="Typersever" type="application/atom+xml">
@@ -34,9 +39,9 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
 
-    <body>
-      <header>
-        
+      <body>
+        <header>
+          
 <div>
 		
 			<div id="imglogo">
@@ -70,40 +75,57 @@
 				</ul>
 			</nav>			
 </div>
-      </header>
-      <div id="container">
-        
+        </header>
+        <div id="container">
+          <div id="main" class="page" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/about/index.html" title="About me" itemprop="url">About me</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Towey Tao" target="_blank" itemprop="author">Towey Tao</a>
+		
+  <p class="article-time">
+    <time datetime="2015-06-10T02:23:18.000Z" itemprop="datePublished"> 發表於 2015-06-10</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<h1 id="关于我">关于我</h1><p>This is my blog, welcome! </p>
+<p>I’m Towey Tao from Guangzhou University.</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
 
-<div class="archive-title" >
-  <h2 class="archive-icon">2015/6</h2>
-  
-  <div class="archiveslist archive-float clearfix">
-   <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">2015 年 06 月</a><span class="archive-list-count">1</span></li></ul>
- </div>
-  
+
 </div>
-<div id="main" class="archive-part clearfix">
-  <div id="archive-page">
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2015/06/10/Hello-world/" title="Hello-world" itemprop="url">
-  
-
-    <time datetime="2015-06-10T02:07:33.000Z" itemprop="datePublished">2015-06-10</time>
 
 
-    <h1 itemprop="name">Hello-world</h1>
 
-  </a>
-</section>
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yoursite.com/about/index.html" data-title="About me | Typersever" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
 
 
-  </div>
-</div>
+</footer>
 
-      </div>
-      <footer><div id="footer" >
+   	       
+	</article>
+	
+	
+
+</div>  
+        </div>
+        <footer><div id="footer" >
 	
 	<div class="line">
 		<span></span>
@@ -140,7 +162,7 @@
 		</p>
 </div>
 </footer>
-      <script src="/js/jquery-2.0.3.min.js"></script>
+        <script src="/js/jquery-2.0.3.min.js"></script>
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>
 
@@ -189,6 +211,35 @@ $(document).ready(function(){
 });
 </script>
 
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
 
 
 
@@ -248,5 +299,6 @@ $(document).ready(function(){
 
 <!-- Tiny_search End -->
 
-    </body>
-   </html>
+      </body>
+     </html>
+     
